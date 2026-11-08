@@ -478,6 +478,15 @@
   }, { threshold: .25 });
   letterObserver.observe(letter);
 
+  $('#reveal-last-note').addEventListener('click', (event) => {
+    const button = event.currentTarget;
+    const note = $('#last-note-copy');
+    if (!note.hidden) return;
+    note.hidden = false;
+    note.classList.add('is-revealed');
+    button.setAttribute('aria-expanded', 'true');
+  });
+
   // iOS/Safari can suspend audio after changing tabs. Resume only while the visitor has opted in.
   document.addEventListener('visibilitychange', () => {
     if (!document.hidden && musicEnabled && audioContext?.state === 'suspended') audioContext.resume();

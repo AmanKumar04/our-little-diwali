@@ -18,7 +18,7 @@ Open `index.html` directly, or serve this folder with any static file server. Th
 
 ## Notes
 
-- `assets/aman-vanshu-diwali-photo.jpg` is the optimized Diwali photograph shown in the greeting and ending scenes.
+- `assets/aman-vanshu-diwali-photo.jpg` is the greeting photograph; `assets/aman-vanshu-diwali-ending.jpg` is used in the final romantic section.
 - Music and sound effects are synthesized in the browser with the Web Audio API. Audio starts only after the opening interaction. No third-party audio is downloaded.
 - The sweets, diyas, sparkler and fireworks are drawn with inline SVG or CSS and animated with lightweight JavaScript.
 - Personal copy, sweet reactions, timeline milestones, letter text and unlock thresholds are grouped in `personalization.js`.
