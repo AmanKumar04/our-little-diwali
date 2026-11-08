@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#11102b" />
+    <meta name="description" content="A little Diwali world, made with love by Aman for Vanshu." />
+    <title>Our Little Diwali · Aman &amp; Vanshu</title>
+    <link rel="preload" as="image" href="assets/aman-vanshu-diwali-personalized.jpg" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="personalization.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient-glow" aria-hidden="true"></div>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#welcome" aria-label="Our Little Diwali, back to beginning">
+          <span class="wordmark-mark">A<span>♥</span>V</span>
+          <span class="wordmark-text">our little diwali</span>
+        </a>
+        <div class="sound-controls" aria-label="Audio controls">
+          <button class="sound-button" id="music-toggle" type="button" aria-pressed="false" aria-label="Turn music on">
+            <span class="sound-icon" aria-hidden="true">♫</span><span class="control-label">Music off</span>
+          </button>
+          <button class="sound-button" id="sound-toggle" type="button" aria-pressed="true" aria-label="Turn sound effects off">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h3l4 3V7l-4 3H4Z"/><path d="M15 9a4 4 0 0 1 0 6m2-8a7 7 0 0 1 0 10"/></svg><span class="control-label">Sound on</span>
+          </button>
+        </div>
+      </header>
+
+      <nav class="chapter-nav" aria-label="Story progress">
+        <a href="#welcome" class="chapter-dot is-active" aria-label="Introduction" aria-current="step"><span>01</span></a>
+        <a href="#greeting" class="chapter-dot" aria-label="The greeting"><span>02</span></a>
+        <a href="#mithai" class="chapter-dot" aria-label="Mithai corner"><span>03</span></a>
+        <a href="#celebration" class="chapter-dot" aria-label="Diwali celebration"><span>04</span></a>
+        <a href="#ending" class="chapter-dot" aria-label="A note for you"><span>05</span></a>
+      </nav>
+
+      <main>
+        <section class="scene intro-scene" id="welcome" aria-labelledby="intro-title">
+          <div class="starfield" aria-hidden="true"></div>
+          <div class="intro-lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="intro-copy" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-line"></span> <span id="intro-eyebrow"></span> <span class="eyebrow-line"></span></p>
+            <div class="intro-emblem" aria-hidden="true"><span class="emblem-ring"></span><span class="emblem-heart">♥</span><span class="emblem-spark spark-a">✦</span><span class="emblem-spark spark-b">✧</span></div>
+            <h1 id="intro-title"><span class="reveal-line" id="intro-line-one"></span><span class="reveal-line reveal-delay" id="intro-line-two"></span><span class="reveal-line reveal-delay-two" id="intro-line-three"></span></h1>
+            <p class="intro-subtitle" id="intro-welcome"></p>
+            <button class="button button-primary" id="open-surprise" type="button"><span id="intro-button-label"></span><span class="button-heart" aria-hidden="true">♥</span><span class="button-shine" aria-hidden="true"></span></button>
+            <p class="intro-note" id="intro-note"></p>
+          </div>
+          <div class="intro-bottom" aria-hidden="true">
+            <span class="horizon-line"></span>
+            <div class="intro-diya diya-left"><svg viewBox="0 0 120 72"><ellipse cx="60" cy="54" rx="43" ry="11" fill="#7c382c"/><path d="M17 49c9 15 25 20 43 20s34-5 43-20H17Z" fill="#bf6650"/><ellipse cx="60" cy="49" rx="43" ry="10" fill="#e49a62"/><path d="M60 41c-13-14 0-24 2-34 11 14 10 23-2 34Z" fill="#ffbb54"/><path d="M61 40c-6-8 1-13 2-20 7 9 5 15-2 20Z" fill="#fff1bd"/></svg></div>
+            <div class="intro-diya diya-right"><svg viewBox="0 0 120 72"><ellipse cx="60" cy="54" rx="43" ry="11" fill="#7c382c"/><path d="M17 49c9 15 25 20 43 20s34-5 43-20H17Z" fill="#bf6650"/><ellipse cx="60" cy="49" rx="43" ry="10" fill="#e49a62"/><path d="M60 41c-13-14 0-24 2-34 11 14 10 23-2 34Z" fill="#ffbb54"/><path d="M61 40c-6-8 1-13 2-20 7 9 5 15-2 20Z" fill="#fff1bd"/></svg></div>
+          </div>
+          <a class="scroll-hint" href="#greeting"><span>there's more</span><i aria-hidden="true"></i></a>
+        </section>
+
+        <section class="scene greeting-scene" id="greeting" aria-labelledby="greeting-title">
+          <div class="section-kicker" data-reveal><span>01</span><span class="kicker-rule"></span><span>our first diwali together</span></div>
+          <div class="greeting-layout">
+            <div class="portrait-wrap" data-reveal>
+              <div class="portrait-halo" aria-hidden="true"></div>
+              <span class="portrait-stamp stamp-top" aria-hidden="true">✦</span><span class="portrait-stamp stamp-side" aria-hidden="true">♥</span>
+              <figure class="portrait-frame"><img src="assets/aman-vanshu-diwali-personalized.jpg" alt="Aman in a burgundy embroidered kurta and Vanshu in a light-blue lehenga, sharing a tender Diwali moment" width="800" height="1200" fetchpriority="high" /><figcaption><span>this little world is ours</span><span class="caption-heart">♥</span></figcaption></figure>
+              <div class="portrait-flower flower-one" aria-hidden="true">✿</div><div class="portrait-flower flower-two" aria-hidden="true">✿</div>
+            </div>
+            <div class="greeting-copy" data-reveal>
+              <p class="eyebrow"><span class="eyebrow-line"></span> <span id="greeting-eyebrow"></span></p>
+              <h2 id="greeting-title"></h2>
+              <div class="greeting-message" id="greeting-message"></div>
+              <p class="handwritten" id="greeting-handwritten"></p>
+              <button class="button button-outline" data-scroll="#mithai" type="button"><span id="greeting-button-label"></span><span class="button-spark" aria-hidden="true">✦</span></button>
+            </div>
+          </div>
+          <details class="memory-drawer" data-reveal>
+            <summary id="memory-title"></summary>
+            <ol class="memory-timeline" id="memory-timeline"></ol>
+          </details>
+          <div class="rangoli-corner" aria-hidden="true"><span></span><span></span><span></span><span></span><i>✿</i></div>
+        </section>
+
+        <section class="scene mithai-scene" id="mithai" aria-labelledby="mithai-title">
+          <div class="section-kicker" data-reveal><span>02</span><span class="kicker-rule"></span><span>something sweet</span></div>
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" id="mithai-eyebrow"></p>
+            <h2 id="mithai-title"></h2>
+            <p id="mithai-subtitle"></p>
+          </div>
+          <div class="mithai-counter" aria-live="polite"><span class="counter-icon" aria-hidden="true">✦</span> <span id="sweet-counter-label"></span><strong id="sweet-count">0</strong><span class="counter-spark" aria-hidden="true">✦</span></div>
+          <div class="sweet-grid" id="sweet-grid">
+            <button class="sweet-card" type="button" data-sweet="Gulab Jamun" aria-label="Eat a Gulab Jamun">
+              <span class="sweet-plate plate-rose"><svg viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="60" cy="77" rx="46" ry="12" fill="#f0d9cb"/><ellipse cx="60" cy="73" rx="40" ry="9" fill="#fff2e8"/><circle cx="42" cy="54" r="18" fill="#a44729"/><circle cx="66" cy="51" r="20" fill="#bb5731"/><circle cx="82" cy="59" r="15" fill="#9c3d26"/><ellipse cx="60" cy="40" rx="19" ry="4" fill="#e28b4d" opacity=".55"/><circle cx="58" cy="33" r="2" fill="#ffd17a"/><circle cx="70" cy="47" r="2" fill="#f7c671"/><path d="M39 50c4-5 9-6 14-4" stroke="#df8650" stroke-width="2" fill="none" stroke-linecap="round"/></svg></span><span class="sweet-name">Gulab Jamun</span><span class="sweet-prompt">have a bite <span>↗</span></span><span class="sweet-message"></span>
+            </button>
+            <button class="sweet-card" type="button" data-sweet="Kaju Katli" aria-label="Eat a Kaju Katli">
+              <span class="sweet-plate plate-lilac"><svg viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="60" cy="77" rx="46" ry="12" fill="#e0d5e8"/><ellipse cx="60" cy="73" rx="40" ry="9" fill="#fff5f0"/><path d="m35 67 17-34 21 34H35Z" fill="#e7ccb0" stroke="#c09a72" stroke-width="2"/><path d="m57 67 16-38 22 38H57Z" fill="#f1d9bd" stroke="#c09a72" stroke-width="2"/><path d="m48 51 5-10 5 10" fill="#fff1d1"/><path d="m70 47 4-10 6 10" fill="#fff1d1"/><path d="M39 64h30M62 64h29" stroke="#fff0d5" stroke-width="2"/><path d="m51 42 2-4m22-2 2 4" stroke="#c89d6f" stroke-width="1.5"/></svg></span><span class="sweet-name">Kaju Katli</span><span class="sweet-prompt">have a bite <span>↗</span></span><span class="sweet-message"></span>
+            </button>
+            <button class="sweet-card" type="button" data-sweet="Rasgulla" aria-label="Eat a Rasgulla">
+              <span class="sweet-plate plate-blue"><svg viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="60" cy="77" rx="46" ry="12" fill="#cfdae6"/><ellipse cx="60" cy="73" rx="40" ry="9" fill="#fff7ef"/><ellipse cx="59" cy="64" rx="31" ry="8" fill="#dcaa64"/><circle cx="45" cy="48" r="16" fill="#fff1cf" stroke="#ebd5a8" stroke-width="2"/><circle cx="70" cy="48" r="17" fill="#fff5d9" stroke="#ead5aa" stroke-width="2"/><ellipse cx="41" cy="43" rx="5" ry="2" fill="#fff" opacity=".9"/><ellipse cx="66" cy="43" rx="5" ry="2" fill="#fff" opacity=".9"/><path d="M46 61c9 5 17 5 27 0" stroke="#f0c783" stroke-width="2" fill="none"/></svg></span><span class="sweet-name">Rasgulla</span><span class="sweet-prompt">have a bite <span>↗</span></span><span class="sweet-message"></span>
+            </button>
+            <button class="sweet-card" type="button" data-sweet="Ladoo" aria-label="Eat a Ladoo">
+              <span class="sweet-plate plate-peach"><svg viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="60" cy="77" rx="46" ry="12" fill="#edd4bb"/><ellipse cx="60" cy="73" rx="40" ry="9" fill="#fff4e6"/><circle cx="48" cy="52" r="20" fill="#e5a13f"/><circle cx="72" cy="54" r="19" fill="#f2b548"/><circle cx="41" cy="45" r="3" fill="#a86732"/><circle cx="54" cy="59" r="2.5" fill="#a86732"/><circle cx="69" cy="44" r="3" fill="#ae6d2c"/><circle cx="80" cy="58" r="2.5" fill="#ae6d2c"/><circle cx="62" cy="54" r="2" fill="#fff1b3"/><path d="M40 39c6-7 12-7 17-4m12-2c7 0 12 3 15 8" stroke="#ffd979" stroke-width="2" fill="none" stroke-linecap="round"/></svg></span><span class="sweet-name">Ladoo</span><span class="sweet-prompt">have a bite <span>↗</span></span><span class="sweet-message"></span>
+            </button>
+            <button class="sweet-card" type="button" data-sweet="Jalebi" aria-label="Eat a Jalebi">
+              <span class="sweet-plate plate-aqua"><svg viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="60" cy="77" rx="46" ry="12" fill="#d5e1d9"/><ellipse cx="60" cy="73" rx="40" ry="9" fill="#fff6e6"/><path d="M39 56c-2-12 10-19 19-11 7 6 2 14-5 13-8-1-7-11 0-12 9-1 18 8 14 17-4 10-20 9-23 0-3-8 7-15 14-9 7 7-2 14-8 10" stroke="#d47624" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M40 55c-2-11 10-18 18-11" stroke="#ffce66" stroke-width="2" fill="none" stroke-linecap="round"/></svg></span><span class="sweet-name">Jalebi</span><span class="sweet-prompt">have a bite <span>↗</span></span><span class="sweet-message"></span>
+            </button>
+            <button class="sweet-card" type="button" data-sweet="Barfi" aria-label="Eat a Barfi">
+              <span class="sweet-plate plate-blush"><svg viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="60" cy="77" rx="46" ry="12" fill="#ead3d5"/><ellipse cx="60" cy="73" rx="40" ry="9" fill="#fff3ee"/><path d="m36 63 7-27 22-7 14 15-6 26-23 5-14-12Z" fill="#edb7bc" stroke="#d78f98" stroke-width="2"/><path d="m57 68 7-28 22-7 14 15-6 26-23 5-14-12Z" fill="#e8a6ad" stroke="#d38690" stroke-width="2"/><path d="m44 40 17 18m9-18 18 18" stroke="#fff1df" stroke-width="2"/><circle cx="56" cy="45" r="2" fill="#fff2d4"/><circle cx="78" cy="42" r="2" fill="#fff2d4"/></svg></span><span class="sweet-name">Barfi</span><span class="sweet-prompt">have a bite <span>↗</span></span><span class="sweet-message"></span>
+            </button>
+            <button class="sweet-card" type="button" data-sweet="Soan Papdi" aria-label="Eat Soan Papdi">
+              <span class="sweet-plate plate-mint"><svg viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="60" cy="77" rx="46" ry="12" fill="#d4dfcc"/><ellipse cx="60" cy="73" rx="40" ry="9" fill="#fff6e7"/><path d="m35 62 10-29 32 3 10 29-25 9-27-12Z" fill="#e9c77d" stroke="#c49d53" stroke-width="2"/><path d="m42 57 32-19M43 62l35-18M49 67l30-17M47 40l29 24M43 49l28 19" stroke="#f8e7bc" stroke-width="2"/><path d="m53 37 4 31" stroke="#fff2d4" stroke-width="2"/></svg></span><span class="sweet-name">Soan Papdi</span><span class="sweet-prompt">have a bite <span>↗</span></span><span class="sweet-message"></span>
+            </button>
+            <button class="sweet-card" type="button" data-sweet="Peda" aria-label="Eat a Peda">
+              <span class="sweet-plate plate-lavender"><svg viewBox="0 0 120 100" aria-hidden="true"><ellipse cx="60" cy="77" rx="46" ry="12" fill="#ddd5e8"/><ellipse cx="60" cy="73" rx="40" ry="9" fill="#fff5eb"/><path d="M32 59c2-18 13-27 29-27s27 9 29 27c-7 13-19 18-29 18S39 72 32 59Z" fill="#e4be83" stroke="#c99e5f" stroke-width="2"/><ellipse cx="61" cy="39" rx="15" ry="8" fill="#f0d29e"/><path d="M47 48c8 4 17 4 27 0" stroke="#c99a58" stroke-width="2" fill="none"/><circle cx="61" cy="43" r="2" fill="#9c4f3c"/><circle cx="53" cy="46" r="1.5" fill="#9c4f3c"/><circle cx="69" cy="46" r="1.5" fill="#9c4f3c"/></svg></span><span class="sweet-name">Peda</span><span class="sweet-prompt">have a bite <span>↗</span></span><span class="sweet-message"></span>
+            </button>
+          </div>
+          <div class="sweet-footer"><span class="sweet-footer-flourish" aria-hidden="true">✦</span><p id="sweet-footer-copy"></p><span class="sweet-footer-flourish" aria-hidden="true">✦</span></div>
+          <button class="button button-primary button-next" data-scroll="#celebration" type="button"><span>Now for the sparkle</span><span class="button-spark" aria-hidden="true">✧</span></button>
+        </section>
+
+        <section class="scene celebration-scene" id="celebration" aria-labelledby="celebration-title">
+          <div class="section-kicker" data-reveal><span>03</span><span class="kicker-rule"></span><span>let's make some magic</span></div>
+          <div class="section-heading celebration-heading" data-reveal>
+            <p class="eyebrow" id="celebration-eyebrow"></p>
+            <h2 id="celebration-title"></h2>
+            <p id="celebration-subtitle"></p>
+          </div>
+          <div class="activity-grid">
+            <article class="activity-card sparkler-card" data-reveal>
+              <div class="activity-number">01 <span>✦</span></div>
+              <div class="activity-art sparkler-art" id="sparkler-art" aria-hidden="true"><span class="sparkler-stick"></span><span class="sparkler-core"></span><span class="spark-particles"></span></div>
+              <h3>Fuljhadi</h3><p>A little sparkle, just for us.</p>
+              <button class="activity-button" id="sparkler-toggle" type="button" aria-pressed="false"><span>Light the sparkler</span><span aria-hidden="true">↗</span></button>
+            </article>
+            <article class="activity-card fireworks-card" data-reveal>
+              <div class="activity-number">02 <span>✦</span></div>
+              <div class="activity-art fireworks-art" aria-hidden="true"><span class="sky-star star-1">✦</span><span class="sky-star star-2">✧</span><span class="sky-star star-3">✦</span><span class="rocket">↗</span></div>
+              <h3>Fireworks</h3><p>Make a wish when they bloom.</p>
+              <button class="activity-button" id="fireworks-trigger" type="button"><span>Send a firework</span><span aria-hidden="true">↗</span></button>
+            </article>
+            <article class="activity-card diya-card" data-reveal>
+              <div class="activity-number">03 <span>✦</span></div>
+              <div class="activity-art diyas-art" aria-hidden="true"><div class="mini-diya" data-diya="1"><span class="flame"></span><span class="bowl"></span><span class="diya-glow"></span></div><div class="mini-diya" data-diya="2"><span class="flame"></span><span class="bowl"></span><span class="diya-glow"></span></div><div class="mini-diya" data-diya="3"><span class="flame"></span><span class="bowl"></span><span class="diya-glow"></span></div></div>
+              <h3>Light a diya</h3><p>Every little light makes a difference.</p>
+              <button class="activity-button" id="diya-trigger" type="button"><span>Light the diyas</span><span aria-hidden="true">↗</span></button>
+            </article>
+          </div>
+          <div class="letter-unlock" id="letter-unlock" hidden aria-live="polite">
+            <span class="envelope-glow" aria-hidden="true"></span>
+            <div class="envelope-art" aria-hidden="true"><svg viewBox="0 0 100 74"><path class="envelope-shadow" d="M8 18 50 49l42-31v45H8V18Z"/><path class="envelope-back" d="M9 17 50 47l41-30"/><path class="envelope-paper" d="M21 10h58v46H21z"/><path class="envelope-front" d="M8 18 50 49l42-31v45H8V18Z"/><path class="envelope-flap" d="m8 18 42 31 42-31L50 4 8 18Z"/><path class="envelope-seal" d="M50 35c-8-7-15 4 0 13 15-9 8-20 0-13Z"/></svg></div>
+            <h3 id="letter-unlock-title"></h3>
+            <button class="button button-outline" id="open-personal-letter" type="button"><span id="letter-unlock-button-label"></span><span class="button-heart" aria-hidden="true">♥</span></button>
+          </div>
+          <dialog class="love-letter-dialog" id="love-letter" aria-labelledby="love-letter-heading">
+            <div class="love-letter-paper">
+              <button class="letter-close" id="close-personal-letter" type="button" aria-label="Close letter">×</button>
+              <p class="letter-eyebrow" id="love-letter-eyebrow"></p>
+              <h2 id="love-letter-heading"></h2>
+              <div class="personal-letter-copy" id="personal-letter-copy"></div>
+            </div>
+          </dialog>
+          <div class="firework-layer" id="firework-layer" aria-hidden="true"></div>
+          <p class="celebration-caption" aria-live="polite" id="celebration-caption"><span aria-hidden="true">✧</span><span id="celebration-caption-copy"></span><span aria-hidden="true">✧</span></p>
+          <button class="button button-outline" data-scroll="#ending" type="button"><span>A little note for you</span><span class="button-heart" aria-hidden="true">♥</span></button>
+        </section>
+
+        <section class="scene ending-scene" id="ending" aria-labelledby="ending-title">
+          <div class="ending-stars" aria-hidden="true"></div>
+          <div class="ending-layout">
+            <div class="ending-art" data-reveal><div class="ending-art-glow" aria-hidden="true"></div><img src="assets/aman-vanshu-diwali-personalized.jpg" alt="Aman and Vanshu together, surrounded by the warm lights of Diwali" width="800" height="1200" loading="lazy" /><span class="ending-art-label" id="ending-art-label"></span><span class="ending-art-heart" aria-hidden="true">♥</span></div>
+            <div class="ending-copy" data-reveal>
+              <p class="eyebrow"><span class="eyebrow-line"></span> <span id="ending-eyebrow"></span></p>
+              <h2 id="ending-title"></h2>
+              <div class="letter-body" id="letter-body">
+                <p id="ending-paragraph-one"></p>
+                <p id="ending-paragraph-two"></p>
+                <p class="letter-happy" id="ending-paragraph-three"></p>
+              </div>
+              <p class="letter-signoff"><span id="ending-signoff"></span><strong id="ending-signature"></strong></p>
+              <button class="button button-primary" id="celebrate-again" type="button"><span>Celebrate Again</span><span class="button-heart" aria-hidden="true">♥</span></button>
+            </div>
+          </div>
+          <div class="ending-lights" aria-hidden="true"><span>✦</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span></div>
+          <footer class="site-footer"><span id="footer-copy"></span><span class="footer-heart">♥</span><span id="footer-tagline"></span></footer>
+        </section>
+      </main>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
