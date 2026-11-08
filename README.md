@@ -18,7 +18,7 @@ Open `index.html` directly, or serve this folder with any static file server. Th
 
 ## Notes
 
-- `assets/aman-vanshu-diwali-personalized.jpg` is the optimized cartoon illustration generated from Aman and Vanshu’s reference photographs. The earlier description-based artwork remains alongside it.
+- `assets/aman-vanshu-diwali-photo.jpg` is the optimized Diwali photograph shown in the greeting and ending scenes.
 - Music and sound effects are synthesized in the browser with the Web Audio API. Audio starts only after the opening interaction. No third-party audio is downloaded.
 - The sweets, diyas, sparkler and fireworks are drawn with inline SVG or CSS and animated with lightweight JavaScript.
 - Personal copy, sweet reactions, timeline milestones, letter text and unlock thresholds are grouped in `personalization.js`.
