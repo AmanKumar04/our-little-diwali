@@ -4,13 +4,13 @@ A five-scene, responsive Diwali surprise for Aman and Vanshu, with a collapsible
 
 ## Publish with GitHub Pages
 
-1. Create an empty GitHub repository for the site.
-2. Copy the **contents of this folder** into the repository root. The repository root should contain `index.html`, `styles.css`, `script.js`, `assets/`, and `.github/`.
+1. Create a public GitHub repository for the site.
+2. Copy the **contents of this folder** into the repository root. The repository root should contain `index.html`, `styles.css`, `script.js`, and `assets/`.
 3. Commit and push the files to the `main` branch.
-4. In the repository, open **Settings → Pages** and set the build and deployment source to **GitHub Actions**.
-5. The included workflow deploys the site when changes are pushed to `main`. Open the URL shown under **Settings → Pages** after the workflow completes.
+4. In the repository, open **Settings → Pages**, choose **Deploy from a branch**, then select `main` and `/(root)`.
+5. Share the URL shown under **Settings → Pages** after the first build completes.
 
-The workflow publishes the repository root as a static GitHub Pages artifact. Relative asset paths keep the image working both on a project site and a user or organization site.
+GitHub Pages publishes the repository root from `main`. Relative asset paths keep the images working on a project site.
 
 ## Local preview
 
